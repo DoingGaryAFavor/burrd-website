@@ -1,7 +1,9 @@
 if (Meteor.isClient) {
+  /*
   Router.configure({
     layoutTemplate: 'layout'  //can be any template name
   });
+  */
 
   Router.route('/', function() {
     this.render('Home');
