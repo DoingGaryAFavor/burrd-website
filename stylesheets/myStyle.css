@@ -605,6 +605,19 @@ body {
     width: auto;
     border: 2px solid #fafafa; }
 
+.member-clevel {
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 45px;
+  width: 425px;
+  text-align: center;
+  font-size: 14px; }
+  .member-clevel img {
+    border-radius: 250px;
+    max-height: 250px;
+    width: auto;
+    border: 2px solid #fafafa; }
+
 .member-name {
   font-size: 2em;
   font-weight: 900;
