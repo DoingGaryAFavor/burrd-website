@@ -1,5 +1,5 @@
 #splash {
-    background: #000 url("../img/gaslamp_blur.png") no-repeat center center;
+    background: #000 url("img/gaslamp_blur.png") no-repeat center center;
     background-size: cover;
     color:white;
     text-align: center;
@@ -15,7 +15,7 @@
 }
 
 #splash h1 {
-    background-image:url("../img/burrd_large.png");
+    background-image: url("img/burrd_large.png");
     background-size:contain;
     background-position: center center;
     background-repeat: no-repeat;
