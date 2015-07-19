@@ -1,22 +1,23 @@
 #splash {
     background: #000 url("img/gaslamp_blur.png") no-repeat center center;
+    background-color: #000000;
     background-size: cover;
-    color:white;
+    color: white;
     text-align: center;
 }
 #splash .container {
     position: relative;
-    padding:20px;
-    width:100%;
-    margin:0 auto;
-    max-width:600px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
     min-height: 580px;
     height: 100%;
 }
 
 #splash h1 {
     background-image: url("img/burrd_large.png");
-    background-size:contain;
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     height:80px;
@@ -50,7 +51,7 @@ span.headline {
 
 .app-cta {
     display: block;
-    margin: 30px auto;
+    /*margin: 30px auto;*/
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -59,20 +60,21 @@ span.headline {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
+    
 }
 
 .applink-cta {
-    background-image:url("../images/badge-appstore.svg");
+    background-image:url("appstore_download");
     background-repeat: no-repeat;
     border-radius: 8px;
     border: 4px solid rgba(0,0,0,0);
     box-sizing: content-box;
     display: inline-block;
     font-size: 0;
-    height:40px;
-    line-height: 0;
+    height: 40px;
+    width: 135px;
     margin: 10px 0;
-    width:135px;
+    line-height: 0;
 }
 
 .applink-cta:hover {
@@ -80,11 +82,17 @@ span.headline {
 }
 
 .playstore-cta {
-    background-image:url("../images/badge-playstore.png");
-    background-size: 115px 40px;
-    height:40px;
-    margin-left: 12px;
-    width:115px;
+    background-image:url("playstore_download");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: 4px solid rgba(0,0,0,0);
+    box-sizing: content-box;
+    display: inline-block;
+    font-size: 0;
+    height: 40px;
+    width: 135px;
+    line-height: 0;
+    margin: 10px 0;
 }
 
 video#bgvid {

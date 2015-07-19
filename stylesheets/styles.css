@@ -7,6 +7,7 @@ html {
   padding:0;
   margin:0;
   font-size: 14px;
+  background-color: #000000;
 }
 /*
 34px = 2.125rem
@@ -54,6 +55,12 @@ a:hover .icon {
   fill:#2A748B;
 }
 .width {
+  max-width:1000px;
+  margin:0 auto;
+  padding:60px;
+}
+
+.width-footer {
   max-width:1000px;
   margin:0 auto;
   padding:20px;
@@ -168,13 +175,13 @@ nav .applink:hover {
 
 nav .appstore-link,
 nav .appstore-link:hover{
-  background-image: url('../images/logo_apple.svg');
+  background-image: url('appstore placeholder');
 }
 nav .playstore-link,
 nav .playstore-link:hover {
-  background-image: url('img/logo_playstore.ico');
-  width: 40px;
-  height: 40px;
+  background-image: url('playstore placeholder');
+  background-size: contain;
+
 }
 
 /* ====== Header Section */
@@ -186,7 +193,7 @@ section#header h3.logo {
   float:left;
   width:286px;
   height:70px;
-  background-image:url('../images/logo.png');
+  background-image:url('img/burrd_large.png');
   background-size:contain;
   background-repeat:no-repeat;
   text-indent:-9000px;
@@ -292,78 +299,37 @@ section#team ul li .avatar {
     padding:0px;
   }
 }
-#kayvon {
-  background-image:url("../images/kayvon_avatar.png");
+#david {
+  background-image:url("img/prof_david.png");
 }
-#joe {
-  background-image:url("../images/joe_avatar.png");
+#adam {
+  background-image:url("img/prof_adam.png");
 }
-#aaron {
-  background-image:url("../images/aaron_avatar.png");
+#trent {
+  background-image:url("img/prof_trent.gif");
 }
-#tyler {
-  background-image:url("../images/tyler_avatar.png");
+#brenton {
+  background-image:url("img/prof_brenton.png");
 }
-#nils {
-  background-image:url("../images/nils_avatar.png");
+#anjali {
+  background-image:url("img/prof_anjali.png");
 }
-#alex {
-  background-image:url("../images/alex_avatar.png");
+#soham {
+  background-image:url("img/prof_soham.png");
 }
-#geraint {
-  background-image:url("../images/geraint_avatar.png");
+#andrew {
+  background-image:url("img/prof_andrew.png");
 }
-#scotch {
-  background-image:url("../images/scotch_avatar.png");
+#chloe {
+  background-image:url("img/prof_chloe.png");
 }
-#scott {
-  background-image:url("../images/scott_avatar.png");
+#sherman {
+  background-image:url("img/prof_sherman.png");
 }
-#sara {
-  background-image:url("../images/sara_avatar.png");
+#andrew {
+  background-image:url("img/prof_andrew.png");
 }
-#bill {
-  background-image:url("../images/bill_avatar.png");
-}
-#abi {
-  background-image:url("../images/abi_avatar.png");
-}
-#bin {
-  background-image:url("../images/bin_avatar.png");
-}
-#lien {
-  background-image:url("../images/lien_avatar.png");
-}
-#jonathan {
-  background-image:url("../images/jonathan_avatar.png");
-}
-#nader {
-  background-image:url("../images/nader_avatar.png");
-}
-#judette {
-  background-image:url("../images/judette_avatar.png");
-}
-#lili {
-  background-image:url("../images/lili_avatar.png");
-}
-#mark {
-  background-image:url("../images/mark_avatar.png");
-}
-#suyash {
-  background-image:url("../images/suyash_avatar.png");
-}
-#moh {
-  background-image:url("../images/mo_avatar.png");
-}
-#mike {
-  background-image:url("../images/mike_avatar.png");
-}
-#pablo {
-  background-image:url("../images/pablo_avatar.png");
-}
-#lola {
-  background-image:url("../images/lola_avatar.png");
-}
+
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   #tyler {
@@ -563,7 +529,7 @@ section#investors li#menlo {
     background-image:url(../images/ventures_logo@2x.png);
   }
   section#header h3.logo {
-    background-image:url(../images/logo@2x.png);
+    background-image:url('img/burrd_large.png');
   }
 }
 @media all and (max-width : 740px) {
