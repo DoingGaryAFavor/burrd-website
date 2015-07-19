@@ -9,10 +9,10 @@
     position: relative;
     padding: 20px;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
     max-width: 600px;
     min-height: 580px;
-    height: 100%;
 }
 
 #splash h1 {
@@ -64,14 +64,14 @@ span.headline {
 }
 
 .applink-cta {
-    background-image:url("appstore_download");
+    background-image:url("img/appstore_download_shrink.png");
     background-repeat: no-repeat;
     border-radius: 8px;
     border: 4px solid rgba(0,0,0,0);
     box-sizing: content-box;
     display: inline-block;
     font-size: 0;
-    height: 40px;
+    height: 50px;
     width: 135px;
     margin: 10px 0;
     line-height: 0;
@@ -82,14 +82,14 @@ span.headline {
 }
 
 .playstore-cta {
-    background-image:url("playstore_download");
+    background-image:url("img/playstore_download_shrink.png");
     background-repeat: no-repeat;
     border-radius: 8px;
     border: 4px solid rgba(0,0,0,0);
     box-sizing: content-box;
     display: inline-block;
     font-size: 0;
-    height: 40px;
+    height: 50px;
     width: 135px;
     line-height: 0;
     margin: 10px 0;
