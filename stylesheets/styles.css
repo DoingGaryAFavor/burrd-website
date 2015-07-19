@@ -330,81 +330,41 @@ section#team ul li .avatar {
   background-image:url("img/prof_andrew.png");
 }
 
-
+/* ========= For High Res Screens ==========*/
+/*
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  #tyler {
+  #david {
     background-image:url("../images/tyler_avatar@2x.png");
   }
-  #kayvon {
+  #adam {
     background-image:url("../images/kayvon_avatar@2x.png");
   }
-  #aaron {
+  #trent {
     background-image:url("../images/aaron_avatar@2x.png");
   }
-  #joe {
+  #brenton {
     background-image:url("../images/joe_avatar@2x.png");
   }
-  #nils {
+  #anjali {
     background-image:url("../images/nils_avatar@2x.png");
   }
-  #alex {
+  #soham {
     background-image:url("../images/alex_avatar@2x.png");
   }
-  #geraint {
+  #andrew {
     background-image:url("../images/geraint_avatar@2x.png");
   }
-  #scotch {
+  #chloe {
     background-image:url("../images/scotch_avatar@2x.png");
   }
-  #scott {
+  #sherman {
     background-image:url("../images/scott_avatar@2x.png");
   }
-  #sara {
+  #andrew {
     background-image:url("../images/sara_avatar@2x.png");
   }
-  #bill {
-    background-image:url("../images/bill_avatar@2x.png");
-  }
-  #abi {
-    background-image:url("../images/abi_avatar@2x.png");
-  }
-  #bin {
-    background-image:url("../images/bin_avatar@2x.png");
-  }
-  #lien {
-    background-image:url("../images/lien_avatar@2x.png");
-  }
-  #jonathan {
-    background-image:url("../images/jonathan_avatar@2x.png");
-  }
-  #nader {
-    background-image:url("../images/nader_avatar@2x.png");
-  }
-  #judette {
-    background-image:url("../images/judette_avatar@2x.png");
-  }
-  #lili {
-    background-image:url("../images/lili_avatar@2x.png");
-  }
-  #mark {
-    background-image:url("../images/mark_avatar@2x.png");
-  }
-  #suyash {
-    background-image:url("../images/suyash_avatar@2x.png");
-  }
-  #moh {
-    background-image:url("../images/mo_avatar@2x.png");
-  }
-  #mike {
-    background-image:url("../images/mike_avatar@2x.png");
-  }
-  #pablo {
-    background-image:url("../images/pablo_avatar@2x.png");
-  }
-  #lola {
-    background-image:url("../images/lola_avatar@2x.png");
-  }
 }
+*/
 
 section#team ul li .title{
   font-size:1rem;
@@ -416,6 +376,7 @@ section#team ul li .title{
 
 
 /* ====== Jobs Section */
+/*
 section#jobs {
   background-color:#F5FAFC;
 
@@ -477,10 +438,11 @@ section#jobs ul#jobList li a:active {
     font-size:1.25rem;
   }
 }
+*/
 
 
-/* ====== Investors */
-
+/* ====== Investors ========*/
+/*
 section#investors {
   background-color:#3F4D51;
   border-top: 1px solid #222D30;
@@ -542,6 +504,7 @@ section#investors li#menlo {
     width:100%;
   }
 }
+*/
 
 
 
