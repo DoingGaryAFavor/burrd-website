@@ -1,7 +1,8 @@
 #splash {
-    background: #000 url("img/gaslamp_blur.png") no-repeat center center;
+    background: #000 url("img/White-Wine.jpg") no-repeat center center;
     background-color: #000000;
     background-size: cover;
+    min-height: 700px;
     color: white;
     text-align: center;
 }
@@ -15,17 +16,38 @@
     min-height: 580px;
 }
 
-#splash h1 {
+
+#splash h2, #logo {
+    /*
     background-image: url("img/burrd_large.png");
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    */
+    
     height:80px;
-    width:80%;
+    width:40%;
+    /*
     max-width:360px;
     text-indent:-9000px;
     overflow:hidden;
     margin:100px auto 20px;
+    display: block;
+    */
+    
+
+}
+
+#pic-logo {
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+
+#logo-title {
+    float: left;
+    font-size: 100px;
+    margin: 0;
 }
 
 span.headline {
