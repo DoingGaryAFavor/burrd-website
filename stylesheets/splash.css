@@ -7,6 +7,7 @@
     width: 100%;
     text-align: center;
 }
+
 #splash .container {
     position: relative;
     padding: 20px;
@@ -17,18 +18,36 @@
     min-height: 580px;
 }
 
-#splash h1 {
-    background-image: url("img/burrd_large.png");
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    height:80px;
-    width:80%;
-    max-width:360px;
-    text-indent:-9000px;
-    overflow:hidden;
-    margin:100px auto 20px;
+.heading {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
 }
+
+.heading img {
+    display: inline-block;
+    height:80px;
+    width: 80px;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+
+.heading h1 {
+    /*background-image: url("img/burrd_large.png");
+    background-size: contain; */
+    display: inline-block;
+    font-size: 100px;
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    max-width:360px;
+    /*text-indent:-9000px;*/
+    overflow:hidden;
+    margin: 0;
+    vertical-align: middle;
+
+}
+
 
 span.headline {
     font-size:1.6em;
