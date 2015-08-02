@@ -1,138 +1,45 @@
-<head>
-    <title>Burrd</title>
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/myStyle.css">  
-    <link href="css/landing-page.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="shortcut icon" href="/img/burrdy.ico">
-</head>
-
-
-<template name="NavBar">
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation" style = "background-color: #ffa000">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <a class="navbar-brand topnav" href="/"  > Home </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    
-                  <li><a href="/about">About</a></li>
-
-                </ul>
-            </div>
-        </div>
-    </nav>
-</template>
-
 <template name="Home">
-    {{> NavBar}}
-    <!-- Main Body -->
-    <a name="home"></a>
-    <div class="intro-header">
+    <div id="splash">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        
-                        <h3>Have you heard the wurrd?</h3>
-                        
-                        <img src= "/img/burrd_large.png" style="max-height:300px" width="auto">
-                        <h3>Everybody's heard, about</h3>
-                        <h1>the burrd</h1>
-                        <h3>Your happy hour destination</h3>    
-
-                        <hr class="intro-divider">
-                        <img src="/img/scrollArrow.png" class="center-block img-responsive " alt="Responsive image">
-                            
-                      </div>
-                  </div>
-              </div>
-          </div>
-    </div>
-    
-  <script src="js/jquery.js"></script>
-</template>
-
-
-<template name="About">
-
-    {{> NavBar}}
-
-    <div class = "team-section">
-        <div class = "section-wrap" > 
-            <div class="section-title">Who we are.
-  <!-- think about a cool autofill thing -->
+            <nav>
+                <a href="about">About</a>
+                <a href="https://medium.com/@theburrd">Blog</a>
+                <!-- <a href="appstore placeholder" class="applink appstore-link" title="Download on the App Store">App Store</a> -->
+                <a href="playstore placeholder" class="applink playstore-link" title="Download on the Play Store">Google Play Store</a>
+            </nav>
+            <div class="heading">
+                <img src="img/burrd_large.png">
+                <h1>Burrd</h1>
+                <span class="headline">Your Happy Hour Destination</span>
             </div>
-            <div class ="members">
-                <div class ="member">
-                    <img src="/img/prof_david.png" alt="adam"/>
-                    <div class="member-name">David Liberman</div>
-                    <div class="member-title">CEO</div>
-                </div>
-                 <div class ="member">
-                    <img src="/img/prof_adam.png" alt="adam"/>
-                    <div class="member-name">Adam Dorwort</div>
-                    <div class="member-title">CTO</div>
-                </div>
-                <div class ="member">
-                    <img src="/img/prof_andrew.png" alt="adam"/>
-                    <div class="member-name">Andrew Walters</div>
-                    <div class="member-title">Software Developer</div>
-                </div>
+            
+                
+            
+        <!--
+            <div class="video-cta">
+              <svg class="playbutton" width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                  <g id="vanity-google-store-copy" sketch:type="MSArtboardGroup" transform="translate(-657.000000, -354.000000)">
+                    <g id="playbutton" sketch:type="MSLayerGroup" transform="translate(658.000000, 355.000000)">
+                      <circle id="playstroke" stroke="#FFFFFF" stroke-width="2" fill-opacity="0.2" fill="#000000" sketch:type="MSShapeGroup" cx="43" cy="43" r="43"></circle>
+                      <polygon id="Triangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" transform="translate(47.000000, 43.000000) rotate(90.000000) translate(-47.000000, -43.000000) " points="47 29 61 57 33 57 "></polygon>
+                    </g>
+                  </g>
+                </g>
+              </svg>
             </div>
-            <div class ="members">
-                 <div class ="member">
-                    <img src="/img/prof_trent.gif" alt="adam"/>
-                    <div class="member-name">Trent Robison</div>
-                    <div class="member-title">Software Development Lead</div>
-                </div>
-                <div class ="member">
-                    <img src="/img/prof_soham.png" alt="adam"/>
-                    <div class="member-name">Soham Jatakia</div>
-                    <div class="member-title">Software Development Lead</div>
-                </div>
-                <div class ="member">
-                    <img src="/img/prof_chloe.png" alt="adam"/>
-                    <div class="member-name">Chloe Lopez</div>
-                    <div class="member-title">User Interface Specialist</div>
-                </div>
-                <div class ="member">
-                    <img src="/img/prof_sherman.png" alt="adam"/>
-                    <div class="member-name">Sherman Cheung</div>
-                    <div class="member-title">Algorithms Specialist</div>
-                </div>
-                <div class ="member">
-                    <img src="/img/prof_anjali.png" alt="adam"/>
-                    <div class="member-name">Anjali Patel</div>
-                    <div class="member-title">QA Specialist</div>
-                </div>
-                <div class ="member">
-                    <img src="/img/prof_brenton.png" alt="adam"/>
-                    <div class="member-name">Brenton Ang</div>
-                    <div class="member-title">Database Specialist</div>
-                </div>
+        -->
+
+            <div class="app-cta">
+                <!-- <a href="appstore link" class="applink-cta appstore-cta" title="Download on the App Store">Download on the App Store</a> -->
+                <a href="playstore link" class="applink-cta playstore-cta" title="Get it on Google Play">Get it on Google Play</a>
             </div>
         </div>
     </div>
-
-  <!-- jQuery -->
-  <script src="js/jquery.js"></script>
-
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-
 </template>
+
+
+
+
 
 

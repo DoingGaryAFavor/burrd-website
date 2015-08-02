@@ -1,0 +1,195 @@
+#splash {
+    /*By Rufustelestrat (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY 2.5 (http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons*/
+    background: #000 url("img/reflecting_pond_mini.jpg") no-repeat center center;
+    background-color: #000000;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#splash .container {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    min-height: 580px;
+}
+
+.heading {
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+}
+
+.heading img {
+    display: inline-block;
+    height: 6em;
+    width: 6em;
+    vertical-align: middle;
+    margin-right: 1em;
+}
+
+.heading h1 {
+    display: inline-block;
+    /*max-width: 360px;*/
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 6em;
+    overflow:hidden;
+    margin: 0;    
+    vertical-align: middle;
+}
+
+
+span.headline {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin-top: -1%;
+}
+
+.video-cta {
+    margin-top: 40px;
+}
+
+.playbutton {
+    cursor: pointer;
+}
+
+#playstroke {
+    fill-opacity: .2;
+    transition: fill-opacity .1s;
+}
+
+.playbutton:hover #playstroke {
+    fill-opacity: .4;
+}
+
+.app-cta {
+    display: block;
+    /*margin: 30px auto;*/
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%);
+    
+}
+
+.applink-cta {
+    background-image:url("img/appstore_download.png");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: 4px solid rgba(0,0,0,0);
+    box-sizing: content-box;
+    display: inline-block;
+    font-size: 0;
+    height: 50px;
+    width: 135px;
+    margin: 10px 0;
+    line-height: 0;
+}
+
+.applink-cta:hover {
+    border-color: rgba(0,0,0,0.2);
+}
+
+.playstore-cta {
+    background-image:url("img/playstore_download.png");
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-size: contain;
+    border: 4px solid rgba(0,0,0,0);
+    box-sizing: content-box;
+    display: inline-block;
+    font-size: 0;
+    height: 50px;
+    width: 135px;
+    line-height: 0;
+    margin: 10px 0;
+}
+
+video#bgvid {
+    position: fixed; left:50%; top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 100%; min-height: 100%;
+    width: auto; height: auto; z-index: -100;
+    background: url("../images/splash_bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.overlay-bg {
+    background-color: rgb(0,0,0);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.overlay-video {
+    height: 100%;
+    width: 100%;
+}
+
+.overlay-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #splash .container {
+        min-height: 480px;
+    }
+
+    #splash h1 {
+        margin-top: 20px;
+    }
+
+    #splash .heading {
+        margin-top: 55%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #splash .container {
+        min-height: 480px;
+    }
+
+
+    #splash .heading {
+        margin-top: 30%;
+    }
+}
