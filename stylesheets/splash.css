@@ -1,6 +1,6 @@
 #splash {
     /*By Rufustelestrat (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html), CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC BY 2.5 (http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons*/
-    background: #000 url("img/reflecting_pond.jpg") no-repeat center center;
+    background: #000 url("img/reflecting_pond_mini.jpg") no-repeat center center;
     background-color: #000000;
     background-size: cover;
     color: white;
@@ -21,7 +21,7 @@
 
 .heading {
     display: block;
-    margin-top: 55%;
+    margin-top: 54%;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@
     max-width: 360px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 100px;
+    font-size: 7em;
     overflow:hidden;
     margin: 0;    
     vertical-align: middle;
@@ -50,6 +50,7 @@ span.headline {
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.6em;
+    margin-top: -1%;
 }
 
 .video-cta {
@@ -84,7 +85,7 @@ span.headline {
 }
 
 .applink-cta {
-    background-image:url("img/appstore_download_shrink.png");
+    background-image:url("img/appstore_download.png");
     background-repeat: no-repeat;
     border-radius: 8px;
     border: 4px solid rgba(0,0,0,0);
@@ -102,9 +103,10 @@ span.headline {
 }
 
 .playstore-cta {
-    background-image:url("img/playstore_download_shrink.png");
+    background-image:url("img/playstore_download.png");
     background-repeat: no-repeat;
     border-radius: 8px;
+    background-size: contain;
     border: 4px solid rgba(0,0,0,0);
     box-sizing: content-box;
     display: inline-block;
