@@ -22,11 +22,11 @@
 .heading {
     /*display: block;*/
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 60%;
+    left: 25%;
     /*bottom: 20%;*/
     /*margin-top: 45em;*/
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .heading img {
