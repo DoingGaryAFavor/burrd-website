@@ -177,8 +177,24 @@ nav {
         min-height: 480px;
     }
 
+    .heading {
+        position: absolute;
+        top: 66%;
+        left: 0;
+        right: 0;
+        /*position: static;
+        text-align: center;
+        margin: 0 auto;*/
+    }
+
+    .heading img {
+        height: 3em;
+        width: 3em;
+    }
+
     #splash h1 {
-        margin-top: 20px;
+        /*margin-top: 20px;*/
+        font-size: 3em;
     }
 
     #splash .heading {
@@ -191,8 +207,7 @@ nav {
         min-height: 480px;
     }
 
-
     #splash .heading {
-        margin-top: 30%;
+        margin: 0;
     }
 }
