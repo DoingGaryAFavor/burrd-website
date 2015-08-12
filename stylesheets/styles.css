@@ -186,7 +186,8 @@ nav .playstore-link:hover {
 
 /* ====== Header Section */
 section#header {
-  background:#40A4C4;
+  /*background:#40A4C4;*/
+  background: #FFC107;
   color:white;
 }
 
@@ -243,7 +244,8 @@ section#header img {
 }
 /* ====== About Section */
 section#about {
-  background:#40A4C4;
+  /*background:#40A4C4;*/
+  background: #FFC107;
   border-bottom:1px solid #328AA7;
   color:white;
 }
