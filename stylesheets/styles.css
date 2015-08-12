@@ -221,10 +221,10 @@ section#header img {
 
 @media all and (max-width : 720px) {
   section#header h3.logo {
-    float:none;
+    float:left;
     display:inline-block;
     margin:0 auto;
-    font-size: 4em;
+    font-size: 3.5em;
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
@@ -234,8 +234,8 @@ section#header img {
   nav {
     margin-top:10px;
     text-align: center;
-  float:none;
-  display:block;
+    float:none;
+    display:block;
   }
   section#header {
     background-color:#328AA7;
@@ -570,14 +570,16 @@ section#investors li#menlo {
     padding: 50px;
   }
 
-  section#header img {
-    display: inline-block;
-    height: 3.5em;
-    width: 3.5em;
-  }
 
   .title {
     text-align: center;
+  }
+
+  section#header img {
+    text-align: center;
+    margin-left: 20%;
+    height: 3.7em;
+    width: 3.7em;
   }
 
   span.subhead:before, span.subhead:after {
