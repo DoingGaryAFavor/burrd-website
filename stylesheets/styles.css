@@ -56,7 +56,7 @@ a:hover .icon {
   fill:#2A748B;
 }
 .width {
-  /*max-width:1000px;*/
+  max-width:1000px;
   margin:0 auto;
   padding:60px;
 }
@@ -65,6 +65,8 @@ a:hover .icon {
   max-width:1000px;
   margin:0 auto;
   padding:20px;
+  text-align: center;
+  position: relative;
 }
 
 
@@ -268,6 +270,7 @@ section#team {
   background: #fff;
 }
 section#team ul {
+  display: inline-block;
   padding:0;
 }
 section#team ul li{
