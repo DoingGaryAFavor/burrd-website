@@ -1,0 +1,51 @@
+How to Deploy the Website to the Server
+by Sherman
+
+Prerequisites:
+- The latest production version of the website has been pulled onto the local
+	machine
+
+1. Build the website into a tar ball.  On the local machine, change to the
+        burrd-website directory and run the command:
+
+        $> meteor build burrd-website
+
+
+2. Transfer the newly generated tar ball to the remote server.  The tar ball
+        should be in the folder 
+	burrd-website/burrd-website/burrd-website.tar.gz
+
+        Use the following command to transfer the tar ball:
+
+        $> scp burrd-website.tar.gz sherman@theburrd.com:~
+
+        This will move trasfer the tar ball to the home directory on the
+        remote server.
+
+
+3. SSH into the server and locate the newly transfered bundle.  Unzip the tar
+        ball using the command:
+
+        $> tar -xvf burrd-website.tar.gz
+
+        A new directory called bundle should have been created.
+
+
+4. Move into the bundle directory.  Change the directory to:
+        bundle/programs/server
+
+
+5. Run the command:
+
+        $> sudo npm install
+
+
+6. Change to the top level bundle directory and run the command:
+
+        $> env PORT=80 MONGO_URL=mongodb://localhost:27017/burrd-website ROOT_URL=http://theburrd.com node main.js
+
+
+        Note: The two following commands may be needed to open port 80.
+
+        $> sudo apt-get install libcap2-bin
+        $> sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
