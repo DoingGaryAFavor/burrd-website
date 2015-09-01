@@ -94,6 +94,8 @@ h4 {
   font-family: 'museo_sans700', sans-serif;
   margin: 60px auto 10px;
   text-align: center;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 span.subhead {
   font-size:1.5em;
@@ -225,6 +227,7 @@ section#header img {
 
 @media all and (max-width : 720px) {
   section#header h3.logo {
+
     float:left;
     display:inline-block;
     margin:0 auto;
@@ -236,13 +239,14 @@ section#header img {
     transform: scale(0.7);
   }
   nav {
-    margin-top:10px;
+    padding-top:50px;
     text-align: center;
     float:none;
     display:block;
   }
   section#header {
     background-color:#FFC107;
+    height: 200px;
   }
 }
 /* ====== About Section */
@@ -573,7 +577,8 @@ section#investors li#menlo {
   }
 
   .width {
-    padding: 50px;
+    height: 100%;
+    padding: 40px;
   }
 
 
