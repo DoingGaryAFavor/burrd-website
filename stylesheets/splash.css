@@ -20,13 +20,10 @@
 }
 
 .heading {
-    /*display: block;*/
     position: absolute;
     top: 63%;
     left: 25%;
-    /*bottom: 20%;*/
-    /*margin-top: 45em;*/
-    /*text-align: center;*/
+
 }
 
 .heading img {
@@ -47,7 +44,6 @@
     margin: 0;    
     vertical-align: middle;
 }
-
 
 span.headline {
     display: block;
@@ -85,7 +81,6 @@ span.headline {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     transform: translateX(-50%);
-    
 }
 
 .applink-cta {
