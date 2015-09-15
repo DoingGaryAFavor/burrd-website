@@ -200,7 +200,7 @@ nav .appstore-link:hover{
 }
 nav .playstore-link,
 nav .playstore-link:hover {
-  background-image: url('img/logo_playstore_shrink.png');
+  /*background-image: url('img/logo_playstore_shrink.png');*/
 }
 
 /* ====== Header Section */

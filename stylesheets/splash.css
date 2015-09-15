@@ -134,6 +134,19 @@ nav {
     font-weight: 100;
 }
 
+.coming-soon {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+    /* Override User Agent margins */
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+
+    margin-bottom: 20px;
+}
+
 .overlay {
     display: none;
     position: absolute;
