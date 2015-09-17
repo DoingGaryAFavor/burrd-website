@@ -40,7 +40,8 @@ Prerequisites:
         $> sudo npm install
 
 
-6. Change to the top level bundle directory and run the command:
+6. To test deployment of the website, change to the top level bundle
+	directory and run the command:
 
         $> env PORT=80 MONGO_URL=mongodb://localhost:27017/burrd-website ROOT_URL=http://theburrd.com node main.js
 
@@ -49,3 +50,9 @@ Prerequisites:
 
         $> sudo apt-get install libcap2-bin
         $> sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
+
+
+7. The website can be deployed and run consistently using npm forever.  From
+	the home directory, run the command:
+
+	$> forever start bundle/main.js
